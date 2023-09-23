@@ -1,0 +1,17 @@
+<Configuration status="info">
+    <Appenders>
+        <Console name="sout" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%p] %d{HH:mm:ss} -> %m%n \n"/>
+        </Console>
+        <File name="file" fileName="logs.log" append="true">
+            <PatternLayout pattern="[%p] %d{HH:mm:ss} -> %m%n \n">
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="sout"/>
+            <AppenderRef ref="file"/>
+        </Root>
+    </Loggers>
+</Configuration>
