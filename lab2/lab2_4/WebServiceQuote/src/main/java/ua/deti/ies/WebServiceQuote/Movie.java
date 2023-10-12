@@ -3,10 +3,10 @@ package ua.deti.ies.WebServiceQuote;
 public class Movie {
 
     private final int id;
-	private final String quote;
+	private final Quote quote;
     private final String title;
 
-	public Movie(int id, String title, String quote) {
+	public Movie(int id, String title, Quote quote) {
 		this.id = id;
 		this.quote = quote;
         this.title = title;
@@ -16,7 +16,7 @@ public class Movie {
 		return id;
 	}
 
-	public String getQuote() {
+	public Quote getQuote() {
 		return quote;
 	}
 
