@@ -37,7 +37,7 @@ De modo a realizar o que é pedido no exercício, Aplicação Spring Boot CRUD c
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-    ```
+```
 De seguida segui o tutorial https://www.baeldung.com/spring-boot-crud-thymeleaf que se  resume à implementação de 3 classes e 3 páginas HTML para efetuar a interação com o utilizador.
 
 Respostas alínea c)
